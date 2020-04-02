@@ -132,13 +132,13 @@ def content():
     
 
 
-#创建一个按钮并放置，点击按钮调用print_selection函数
+#创建一个按钮并放置，点击按钮调用content函数
 
 b1 = tk.Button(window, font=('Arial', 12),text='查看全文', width=15, height=2, command=content)
 
 b1.pack()
  
 
-# 第8步，主窗口循环显示
+# 主窗口循环显示
 
 window.mainloop()
